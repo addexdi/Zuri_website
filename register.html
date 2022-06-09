@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Using REPIT.">
+	  <meta name="keywords" content="Building HTML % CSS-driven website made up of linked pages and styled content.">
+  	<meta name="author" content="Adam Ibrahim">
+    <title>HTML and CSS | Regiter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png">
+  </head>
+  <body>
+    <header>
+        <div class="container">
+          <div id="branding">
+            <h1><span class="highlight">Zuri</span> Fullstack Web Developer</h1>
+          </div>
+          <nav>
+            <ul>
+              <li class="current"><a href="index.html">About me</a></li>
+              <li><a href="contact.html">Contact Me</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="register.html">Register</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section id="main">
+        <div class="container">
+          <div class="dark">
+              <form class="quote">
+                <div>
+                  <label for="name">First Name</label></div>
+                <div>
+                  <input type="text" name="First name" placeholder="Enter your first name" required autofocus></div>
+        
+                  <div>
+                    <label for="name">Last Name</label></div>
+                  <div>
+                    <input type="text" name="Last name" placeholder="Enter your last name" required autofocus></div>
+                
+                 <div>
+                  <label for="number">Age</label></div>
+                <div>
+                  <input class="input-field" type="number" name="Age" min="1" max="120" placeholder="15" required></div>
+                  
+                  <div>
+                    <label for="number">Phone number</label></div>
+                  <div>
+                    <input type="number" name="Phone number" placeholder="+234XXXXXXXXXX" required></div>
+                <div >
+                  <label for="dropdown">Gender</label></div>
+                <div>
+                  <select name="Gender">
+                    <option disabled value selected>Select an option</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                  </select>
+                </div> 
+
+                <div>
+                  <label for="name">Country</label></div>
+                <div>
+                  <input type="text" name="Country" placeholder="Country" required autofocus></div>
+
+                  <div>
+                    <label for="name">State/province</label></div>
+                  <div>
+                    <input type="text" name="State" placeholder="State/province" required autofocus></div>
+
+                <div>
+                  <label for="email">Email</label></div>
+                <div>
+                  <input type="email" name="email" placeholder="email@email.com" required = "@"></div>
+
+                  <div>
+                    <label for="name">Password</label></div>
+                  <div>
+                    <input type="text" name="Password" placeholder="Password" required autofocus></div>
+
+                    <div>
+                      <label for="name">Confirm password</label></div>
+                    <div>
+                      <input type="text" name="Confirm password" placeholder="Confirm password" required autofocus></div>
+
+                <div>
+                  <label>
+                    <button class="button_1" type="submit">Sign Up</button>
+                  </label>
+                </div>
+            </form>
+            </div>
+          
+          </div>
+    </section>
+    </main>
+
+
+    <footer>
+      <p>Adam Ibrahim, Copyright &copy; 2022</p>
+    </footer>
+  </body>
+</html>
